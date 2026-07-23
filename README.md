@@ -5,12 +5,12 @@
 ## 本地运行
 
 ```bash
-git clone --recurse-submodules https://github.com/wjshean/shean.github.io.git
-cd shean.github.io
+git clone --recurse-submodules https://github.com/wjshean/shean.git
+cd shean
 hugo server --buildDrafts
 ```
 
-浏览器访问 `http://localhost:1313/shean.github.io/`。
+浏览器访问 `http://localhost:1313/shean/`。
 
 ## 创建文章
 
@@ -24,6 +24,6 @@ hugo new content posts/my-article.md
 
 当前仓库是项目站点，默认地址为：
 
-<https://wjshean.github.io/shean.github.io/>
+<https://wjshean.github.io/shean/>
 
-如果将仓库改名为 `wjshean.github.io`，需要同时把 `hugo.yaml` 中的 `baseURL` 改为 `https://wjshean.github.io/`。
+如果将仓库改名为 `wjshean.github.io`，可以使用根地址 `https://wjshean.github.io/`，并需要同步修改 `hugo.yaml` 中的 `baseURL`。

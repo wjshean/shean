@@ -1,4 +1,4 @@
-baseURL: https://wjshean.github.io/shean.github.io/
+baseURL: https://wjshean.github.io/shean/
 locale: zh-cn
 defaultContentLanguage: zh
 title: Shean 的技术博客
@@ -64,7 +64,7 @@ params:
     - name: github
       url: https://github.com/wjshean
   editPost:
-    URL: https://github.com/wjshean/shean.github.io/tree/main/content
+    URL: https://github.com/wjshean/shean/tree/main/content
     Text: 编辑此页
     appendFilePath: true
 
