@@ -1,0 +1,86 @@
+baseURL: https://wjshean.github.io/shean.github.io/
+locale: zh-cn
+defaultContentLanguage: zh
+title: Shean 的技术博客
+theme: PaperMod
+timeZone: Asia/Shanghai
+hasCJKLanguage: true
+enableRobotsTXT: true
+
+pagination:
+  pagerSize: 10
+
+permalinks:
+  posts: /posts/:slug/
+
+taxonomies:
+  tag: tags
+  category: categories
+
+menu:
+  main:
+    - identifier: posts
+      name: 文章
+      url: /posts/
+      weight: 10
+    - identifier: tags
+      name: 标签
+      url: /tags/
+      weight: 20
+    - identifier: archives
+      name: 归档
+      url: /archives/
+      weight: 30
+    - identifier: about
+      name: 关于
+      url: /about/
+      weight: 40
+
+params:
+  env: production
+  author: Shean
+  description: 记录软件工程、后端开发和数据技术实践。
+  keywords:
+    - 软件工程
+    - 后端开发
+    - 数据技术
+  defaultTheme: auto
+  disableThemeToggle: false
+  ShowReadingTime: true
+  ShowWordCount: true
+  ShowCodeCopyButtons: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowToc: true
+  TocOpen: false
+  comments: false
+  DateFormat: "2006-01-02"
+  assets:
+    disableHLJS: true
+  homeInfoParams:
+    Title: Shean 的技术博客
+    Content: 专注于可复用的工程经验、问题分析和实现细节。
+  socialIcons:
+    - name: github
+      url: https://github.com/wjshean
+  editPost:
+    URL: https://github.com/wjshean/shean.github.io/tree/main/content
+    Text: 编辑此页
+    appendFilePath: true
+
+markup:
+  highlight:
+    codeFences: true
+    guessSyntax: true
+    lineNos: false
+    noClasses: false
+  goldmark:
+    renderer:
+      unsafe: false
+
+privacy:
+  youtube:
+    privacyEnhanced: true
+
+minify:
+  disableXML: true
