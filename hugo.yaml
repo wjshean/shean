@@ -1,7 +1,7 @@
 baseURL: https://wjshean.github.io/shean/
 locale: zh-cn
 defaultContentLanguage: zh
-title: Shean 的技术博客
+title: Microblog
 theme: PaperMod
 timeZone: Asia/Shanghai
 hasCJKLanguage: true
@@ -58,7 +58,7 @@ params:
   assets:
     disableHLJS: true
   homeInfoParams:
-    Title: Shean 的技术博客
+    Title: Microblog
     Content: 专注于可复用的工程经验、问题分析和实现细节。
   socialIcons:
     - name: github

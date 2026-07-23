@@ -1,4 +1,4 @@
-# Shean 的技术博客
+# Microblog
 
 一个使用 Hugo 和 PaperMod 构建的轻量级技术博客，通过 GitHub Actions 发布到 GitHub Pages。
 
